@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Screenshot</string>
+
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="rate">Rate this app</string>
+    <string name="deleted">Deleted</string>
+    <string name="saved">Saved</string>
+    <string name="stop">Stop</string>
+    <string name="click_to_capture_screen">Click to capture screen</string>
+    <string name="pref_header_settings">Settings</string>
+    <string name="pref_title_overlay_icon">Overlay Icon</string>
+    <string name="pref_title_ongoing_notification">Ongoing Notification</string>
+    <string name="pref_title_permissions">Permissions</string>
+    <string name="tap_here_to_access_the_permission_settings">Tap here to access the permission settings</string>
+    <string name="pref_header_other">Other</string>
+    <string name="pref_title_other_apps">Other apps</string>
+    <string name="pref_title_rate_this_app">Rate this app</string>
+    <string name="floating_widget_label">Floating Widget Label</string>
+    <string name="floating_widget_details">Floating Widget Details</string>
+    <string name="draw_other_app_permission_denied">Draw over other app permission not available. App won\'t work without permission. Please try again.</string>
+
+</resources>

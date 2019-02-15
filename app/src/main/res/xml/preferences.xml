@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_header_settings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_overlay_icon"
+            android:title="@string/pref_title_overlay_icon" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_ongoing_notification"
+            android:title="@string/pref_title_ongoing_notification" />
+        <PreferenceScreen
+            android:summary="@string/tap_here_to_access_the_permission_settings"
+            android:title="@string/pref_title_permissions">
+            <intent
+                android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
+                android:data="package:com.bitlink.screenshot" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_other">
+        <PreferenceScreen android:title="@string/pref_title_rate_this_app">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="market://details?id=com.bitlink.screenshot" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/pref_title_other_apps">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://play.google.com/store/apps/dev?id=4963506684327248732" />
+        </PreferenceScreen>
+        <!--<Preference
+            android:kpref_permissionsions"
+            android:summary="@string/pref_summary_permission"
+            android:title="@string/pref_title_permission" />-->
+    </PreferenceCategory>
+
+</PreferenceScreen>

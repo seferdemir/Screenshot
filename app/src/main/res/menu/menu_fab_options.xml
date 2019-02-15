@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/faboptions_rate"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/rate" />
+
+    <item
+        android:id="@+id/faboptions_delete"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/delete" />
+
+    <item
+        android:id="@+id/faboptions_save"
+        android:icon="@drawable/ic_save"
+        android:title="@string/save" />
+
+    <item
+        android:id="@+id/faboptions_share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share" />
+
+</menu>
